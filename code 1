@@ -70,3 +70,6 @@ contract ERC20 is IERC20 {
        emit Transfer(msg.sender, address(0), amount);
    }
 }
+--------------------------
+    balanceOf[recipient] += amount;
+       emit Transfer(sender, recipient, amount);
