@@ -73,3 +73,5 @@ contract ERC20 is IERC20 {
 --------------------------
     balanceOf[recipient] += amount;
        emit Transfer(sender, recipient, amount);
+
+  event Approval(address indexed owner, address indexed spender, uint value);
